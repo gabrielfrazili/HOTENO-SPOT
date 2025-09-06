@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+header {
+  background: linear-gradient(
+    to right,
+    #b0b0b0 100%,
+    #b2b2b2 75%,
+    #b4b4b4 100%
+  );
+}
+
+aside {
+  background: linear-gradient(
+    to right,
+    #b0b0b0 100%,
+    #b2b2b2 75%,
+    #b4b4b4 100%
+  );
+}
+
+main {
+  background: linear-gradient(
+    to right,
+    #b0b0b0 100%,
+    #b2b2b2 75%,
+    #b4b4b4 100%
+  );
+}
+
+.tocados_blocos {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tocados_bloco_meio_brr {
+  background-color: black;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.foooter {
+  background-color: #707273ed;
+}
+
+.footer_meio_btt_txt1,
+.footer_meio_btt_txt,
+.footer_esquerdo_tt_txt2,
+.footer_esquerdo_tt_txt1 {
+  color: white;
+}
+
+.footer_direita_brr,
+.footer_meio_btt_brr {
+  background-color: white;
+}
+
+@media (max-width: 53.31em) {
+  .footer_inicial {
+    background-color: rgba(105, 105, 105, 0.677);
+  }
+}

@@ -1,0 +1,169 @@
+.header_avanvolta {
+  margin: 2.2rem 0 0 2.94rem;
+}
+
+.aside_logo {
+  padding-left: 1.25rem;
+}
+
+aside {
+  width: 16rem;
+}
+
+.aside_logo_btn_img {
+  width: 12.3rem;
+  height: 3.56rem;
+}
+
+.aside_playlist,
+.aside_inicial {
+  padding-left: 1.25rem;
+  margin-top: 1.88rem;
+}
+
+.aside_inicial_btn_img {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.aside_playlist_btn_img {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.cards,
+.tocados {
+  margin: 0 1.88rem 2.81rem 2.25rem;
+}
+
+.main_titulo {
+  margin-bottom: 1.5rem;
+}
+
+.tocados_blocos {
+  border-radius: 0.625rem;
+}
+
+.tocados_bloco_meio {
+  margin: 0.625rem 0 0.625rem 0;
+  width: 100%;
+}
+
+.tocados_bloco_meio_brr {
+  border-radius: 1.25rem;
+  width: 100%;
+  height: 0.25rem;
+}
+
+.tocados_blocos_img {
+  margin: 0.78rem 0 0 0;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 10.25rem;
+  height: 16.56rem;
+  padding: 1.13rem 0 1.13rem 1.13rem;
+  border-radius: 0.5rem;
+  margin-left: 1.25rem;
+  flex-shrink: 0;
+}
+
+.footer_esquerdo {
+  padding: 0 0 0 0.94rem;
+  width: 15%;
+}
+
+.footer_meio {
+  width: 70%;
+}
+
+.footer_direita {
+  padding: 0 0.94rem 0 0;
+  width: 15%;
+  height: 0.625rem;
+}
+
+.footer_meio_sup_img_2 {
+  width: 2rem;
+  height: 2rem;
+}
+
+.footer_meio_btt,
+.footer_meio_btt_txt1,
+.footer_meio_btt_txt {
+  width: 100%;
+}
+
+.footer_meio_btt_brr {
+  width: 100%;
+  height: 0.25rem;
+}
+
+.ftd {
+  margin-top: 5.94rem;
+  width: 18.75rem;
+}
+
+.footer_direita_brr {
+  width: 100%;
+  height: 0.25rem;
+  border-radius: 0.31rem;
+}
+
+footer {
+  bottom: 0;
+  width: 100vw;
+}
+
+main {
+  padding-bottom: 5rem;
+}
+
+.footer_inicial,
+.header_logo {
+  display: none;
+}
+
+@media (max-width: 53.31em) {
+  .header_avanvolta,
+  aside,
+  .foooter,
+  .tocados_bloco_meio_brr {
+    display: none;
+  }
+  body {
+    column-gap: 0em;
+  }
+  .footer_inicial {
+    display: flex;
+    justify-content: space-around;
+  }
+  .header_logo {
+    display: block;
+    text-align: center;
+    margin: 2.5rem 0 2.5rem 0;
+  }
+  .header_logo_btn_img {
+    width: 17.5rem;
+    height: 5rem;
+  }
+  .main_card {
+    margin-right: -1.88rem;
+    margin-left: -1.88rem;
+  }
+  .aside_inicial_btn_img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+@media (max-width: 33.13em) {
+  .tocados_blocos_img {
+    display: none;
+  }
+  .tocados_blocos_img2 {
+    width: 3.13rem;
+    height: 3.31rem;
+  }
+}

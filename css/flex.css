@@ -1,0 +1,123 @@
+aside {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  overflow-x: auto;
+}
+
+.aside_inicial {
+  display: flex;
+  flex-direction: column;
+  gap: 1.19rem;
+}
+
+.aside_inicial_btn {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.aside_playlist {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.aside_playlist_playlist {
+  display: flex;
+  flex-direction: column;
+  gap: 0.94rem;
+}
+
+.aside_playlist_btn {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.tocados_blocos {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.625rem;
+}
+
+.tocados_bloco_meio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card_bb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.88rem;
+}
+
+.main_card {
+  display: flex;
+}
+
+.main_card {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.foooter {
+  display: flex;
+  justify-content: center;
+}
+
+.footer_esquerdo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer_esquerdo_tt {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.footer_meio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.25rem 0 1.25rem 0;
+}
+
+.footer_meio_btt_txt {
+  text-align: end;
+}
+
+.footer_direita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ftd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.62rem;
+}
+
+@media (max-width: 53.31em) {
+  .footer_inicial {
+    display: flex;
+    justify-content: space-around;
+  }
+  .ff {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
